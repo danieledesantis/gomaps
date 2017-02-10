@@ -1,0 +1,10 @@
+body { font-family: sans-serif; color: #2d2d2d; background-color: #f2f2f2; }
+.container { width: 80%; max-width: 640px; margin: 0 auto; }
+.gomap { width: 100%; margin-bottom: 40px; background-color: #e4e4e4; }
+.map-1 { height: 400px; }
+.map-2 { height: 500px; }
+.map-3 { height: 600px; }
+h1 { margin-bottom: 10px; text-align: center; }
+h1 + a { display: block; margin-bottom: 50px; font-weight: 700; color: #2d2d2d; text-align: center; }
+code { display: block; padding: 20px 30px; margin-bottom: 20px; border: 1px solid #151515; color: #e0e0e0; background: #2f2f2f; }
+code:first-of-type { margin-bottom: 50px; }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GOMAPS JS | RequireJS</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>GOMAPS JS | RequireJS</h1>
+      <a href="http://www.danieledesantis.net" target="_blank">by Daniele De Santis</a>
+
+      <p>GoMaps initialized with the following options:</p>
+      <code>
+        key: 'AIzaSyAjN7VyImzPiqQvpVeNzFOTRXLWy7tAejg',<br>
+        markerIconUrl : '../assets/my-marker.png',<br>
+        mapTypeId : 'satellite',<br>
+        disableDefaultUI : true,<br>
+        zoom: 8
+      </code>
+
+      <h2>Map n°1</h2>
+      <p>No marker, satellite, zoom level 10, disabled scrollwheel.</p>
+      <code>
+        &lt;div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-no-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"&gt;&lt;/div&gt;
+      </code>
+      <div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-no-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"></div>
+
+      <h2>Map n°2</h2>
+      <p>Multiple markers, terrain, disabled map-type, street-view and zoom controls, icons are not clickable, minimum zoom level 12.</p>
+      <code>
+        &lt;div class="gomap map-2" data-lat="55.948769" data-lng="-3.199956" data-markers="55.950082, -3.154573; 55.940084, -3.178262; 55.964304, -3.220834" data-map-type-control="false" data-clickable-icons="false" data-street-view-control="false" data-map-type-id="terrain" data-zoom-control="false" data-min-zoom="12"&gt;&lt;/div&gt;
+      </code>
+      <div class="gomap map-2" data-lat="55.948769" data-lng="-3.199956" data-markers="55.950082, -3.154573; 55.940084, -3.178262; 55.964304, -3.220834" data-map-type-control="false" data-clickable-icons="false" data-street-view-control="false" data-map-type-id="terrain" data-zoom-control="false" data-min-zoom="12"></div>
+
+      <h2>Map n°3</h2>
+      <p>Enabled fullscreen, and scale control, enable default UI, disabled double click zoom, default marker icon.</p>
+      <code>
+        &lt;div class="gomap map-3" data-lat="41.899244" data-lng="12.472875" data-fullscreen-control="true" data-disable-double-click-zoom="true" data-marker-icon-url="false" data-keyboard-shortcuts="false" data-scale-control="true" data-disable-default-ui="false"&gt;&lt;/div&gt;
+      </code>
+      <div class="gomap map-3" data-lat="41.899244" data-lng="12.472875" data-fullscreen-control="true" data-disable-double-click-zoom="true" data-marker-icon-url="false" data-keyboard-shortcuts="false" data-scale-control="true" data-disable-default-ui="false"></div>
+
+    </div>
+
+    <script data-main="app" src="require.js"></script>
+  </body>
+</html>
