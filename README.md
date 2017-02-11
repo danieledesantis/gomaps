@@ -6,6 +6,16 @@ The plugin uses Google Maps JavaScript API for Web to display maps in all elemen
 
 ## Installation and initialization
 
+### Package managers
+
+```shell
+# npm
+npm install gomaps
+
+# Bower
+bower install --save gomaps
+```
+
 ### Vanilla JavaScript
 
 ```html
