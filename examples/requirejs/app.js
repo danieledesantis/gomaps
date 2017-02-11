@@ -3,8 +3,8 @@ require.config({
 });
 
 requirejs(['gomaps'],
-function   (GoogleMaps) {
-	GoogleMaps.init({
+function   (GoMaps) {
+	GoMaps.init({
 		key: 'AIzaSyAjN7VyImzPiqQvpVeNzFOTRXLWy7tAejg',
 		markerIconUrl : '../assets/my-marker.png',
 		mapTypeId : 'satellite',

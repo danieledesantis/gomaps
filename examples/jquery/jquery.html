@@ -26,9 +26,9 @@
       <h2>Map n°1</h2>
       <p>No marker, satellite, zoom level 10, disabled scrollwheel.</p>
       <code>
-        &lt;div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-no-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"&gt;&lt;/div&gt;
+        &lt;div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-show-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"&gt;&lt;/div&gt;
       </code>
-      <div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-no-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"></div>
+      <div class="gomap map-1" data-lat="48.209177" data-lng="16.372882" data-show-marker="false" data-map-type-id="satellite" data-zoom="10" data-scrollwheel="false"></div>
 
       <h2>Map n°2</h2>
       <p>Multiple markers, terrain, disabled map-type, street-view and zoom controls, icons are not clickable, minimum zoom level 12.</p>
@@ -50,7 +50,7 @@
     <script src="../../dist/gomaps.min.js"></script>
     <script>
       $(document).ready(function() {
-        GoogleMaps.init({
+        GoMaps.init({
           key: 'AIzaSyAjN7VyImzPiqQvpVeNzFOTRXLWy7tAejg',
           markerIconUrl : '../assets/my-marker.png',
           mapTypeId : 'satellite',

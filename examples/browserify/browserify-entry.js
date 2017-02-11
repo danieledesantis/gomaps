@@ -1,6 +1,6 @@
-var GoogleMaps = require("../../dist/gomaps");
+var GoMaps = require("../../dist/gomaps");
 
-GoogleMaps.init({
+GoMaps.init({
 	key: 'AIzaSyAjN7VyImzPiqQvpVeNzFOTRXLWy7tAejg',
 	markerIconUrl : '../assets/my-marker.png',
 	mapTypeId : 'satellite',

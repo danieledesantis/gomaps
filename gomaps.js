@@ -10,13 +10,13 @@
 	} else if (typeof exports === 'object') {
 		module.exports = factory();
 	} else {
-    root.GoogleMaps = factory(root);
+    root.GoMaps = factory(root);
 	}
 }(typeof global !== "undefined" ? global : this.window || this.global, function (root) {
 
 	'use strict';
 
-	var GoogleMaps = {};
+	var GoMaps = {};
 
   // settings
 	var _settings;
@@ -189,14 +189,14 @@
     }
   }
 
-	GoogleMaps.destroy = function() {
+	GoMaps.destroy = function() {
 		if (! _settings) return;
 		_settings = null;
 	}
 
-  GoogleMaps.init = function(options) {
+  GoMaps.init = function(options) {
 
-		GoogleMaps.destroy();
+		GoMaps.destroy();
 		_settings = _extend( _defaults, options || {} );
 
 		if (! _settings.key) return console.log('No API key provided.');
@@ -208,5 +208,5 @@
     document.body.appendChild(googleMapsScript);
   }
 
-	return GoogleMaps;
+	return GoMaps;
 }));

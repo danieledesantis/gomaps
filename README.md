@@ -13,7 +13,7 @@ The plugin uses Google Maps JavaScript API for Web to display maps in all elemen
 ```
 
 ```javascript
-GoogleMaps.init({
+GoMaps.init({
 	options: value,
 	...
 });
@@ -27,7 +27,7 @@ GoogleMaps.init({
 
 ```javascript
 $(document).ready(function() {
-	GoogleMaps.init({
+	GoMaps.init({
 		options: value,
 		...
 	});
@@ -38,8 +38,8 @@ $(document).ready(function() {
 
 ```javascript
 requirejs(['gomaps'],
-function   (GoogleMaps) {
-	GoogleMaps.init({
+function   (GoMaps) {
+	GoMaps.init({
 		options: value,
 		...
 	});
@@ -49,9 +49,9 @@ function   (GoogleMaps) {
 ### Browserify
 
 ```javascript
-var GoogleMaps = require("gomaps");
+var GoMaps = require("gomaps");
 
-GoogleMaps.init({
+GoMaps.init({
 	options: value,
 	...
 });
@@ -62,7 +62,7 @@ GoogleMaps.init({
 Initialize the plugin, maps will be created in all elements with the class "gomap".
 
 ```javascript
-GoogleMaps.init({
+GoMaps.init({
 	options: value,
 	...
 });
@@ -86,7 +86,7 @@ Required options are:
 Call the plugin passing it a valid Goole Maps API key.
 
 ```javascript
-GoogleMaps.init({
+GoMaps.init({
 	key: 'AIzaSyAjM5RyImzPiqQvpVeNzFOTRXLWy7tAgrs'
 });
 ```
@@ -110,7 +110,7 @@ You can have all the maps you want, each one with different settings.
 Call the plugin passing it some options, which will be valid for all the maps in you HTML.
 
 ```javascript
-GoogleMaps.init({
+GoMaps.init({
 	key: 'AIzaSyAjM5RyImzPiqQvpVeNzFOTRXLWy7tAgrs'
 	markerIconUrl : 'path/to/my-marker.png',
 	mapTypeId : 'satellite',
