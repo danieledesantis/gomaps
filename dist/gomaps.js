@@ -1,5 +1,5 @@
 /*!
- * gomaps v1.0.8 ()
+ * gomaps v1.0.9 (https://github.com/danieledesantis/gomaps)
  * Daniele De Santis (http://www.danieledesantis.net)
  * Copyright 2017-2017 Daniele De Santis
  * Licensed under MIT license

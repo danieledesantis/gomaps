@@ -1,6 +1,6 @@
 {
   "name": "gomaps",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A JavaScript plugin which allow you to use Google Maps directly in your HTML using data attributes after initialization. The plugin uses Google Maps JavaScript API for Web.",
   "main": "gomaps.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "http://www.danieledesantis.net"
   },
   "license": "MIT",
+  "homepage": "https://github.com/danieledesantis/gomaps",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/danieledesantis/gomaps"
