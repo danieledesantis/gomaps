@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 					linebreak: false
 				},
 				files: {
-					src: [ 'gomaps.js' ]
+					src: [ 'gomaps.js', 'dist/gomaps.js' ]
 				}
 			},
       dist: {
@@ -95,6 +95,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
 
   // Default task.
-  grunt.registerTask('default', ['copy', 'comments', 'uglify', 'string-replace', 'usebanner:main', 'usebanner:dist', 'browserify']);
+  grunt.registerTask('default', ['string-replace', 'copy', 'comments', 'uglify', 'usebanner:main', 'usebanner:dist', 'browserify']);
 
 };

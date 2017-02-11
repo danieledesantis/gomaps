@@ -1,5 +1,5 @@
 /*!
- * gomaps v1.0.0 ()
+ * gomaps v1.0.4 ()
  * Daniele De Santis (http://www.danieledesantis.net)
  * Copyright 2017-2017 Daniele De Santis
  * Licensed under MIT license
@@ -45,7 +45,8 @@
 	}
 
   // global method
-  window.initMaps = function() {
+  var globalScope =  (window !== undefined && window !== null) ? window : self;
+  globalScope.initMaps = function() {
 		// console.log(_settings); DEBUG
 		var isIE = !_hasDatasetSupport();
     // in IE < 11, !_hasDatasetSupport() = true
