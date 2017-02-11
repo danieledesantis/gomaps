@@ -1,6 +1,6 @@
 {
   "name": "gomaps",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A JavaScript plugin which allow you to use Google Maps directly in you HTML using data attributes after initialization. The plugin uses Google Maps JavaScript API for Web.",
   "main": "gomaps.js",
   "scripts": {
