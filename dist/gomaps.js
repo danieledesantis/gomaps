@@ -1,5 +1,5 @@
 /*!
- * gomaps v1.0.4 ()
+ * gomaps v1.0.5 ()
  * Daniele De Santis (http://www.danieledesantis.net)
  * Copyright 2017-2017 Daniele De Santis
  * Licensed under MIT license
@@ -37,8 +37,7 @@
 		var elem = document.createElement('div');
     return !!elem.dataset;
 	}
-  var globalScope =  (window !== undefined && window !== null) ? window : self;
-  globalScope.initMaps = function() {
+  global.initMaps = function() {
 		var isIE = !_hasDatasetSupport();
 
     var maps = document.getElementsByClassName('gomap');
