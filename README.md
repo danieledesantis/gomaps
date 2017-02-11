@@ -1,7 +1,7 @@
 GoMaps JS
 ================================
 
-A JavaScript plugin which allow you to use Google Maps directly in you HTML using data attributes after initialization.
+A JavaScript plugin which allow you to use Google Maps directly in your HTML using data attributes after initialization.
 The plugin uses Google Maps JavaScript API for Web to display maps in all elements with the class "gomap".
 
 ## Installation and initialization
