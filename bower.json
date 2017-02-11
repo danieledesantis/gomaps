@@ -22,6 +22,10 @@
     "test",
     "tests"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/danieledesantis/gomaps"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-banner": "^0.6.0",
