@@ -37,7 +37,7 @@
 		var elem = document.createElement('div');
     return !!elem.dataset;
 	}
-  global.initMaps = function() {
+  window.initMaps = function() {
 		var isIE = !_hasDatasetSupport();
 
     var maps = document.getElementsByClassName('gomap');

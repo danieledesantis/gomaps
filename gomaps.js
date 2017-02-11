@@ -45,7 +45,7 @@
 	}
 
   // global method
-  global.initMaps = function() {
+  window.initMaps = function() {
 		// console.log(_settings); DEBUG
 		var isIE = !_hasDatasetSupport();
     // in IE < 11, !_hasDatasetSupport() = true
